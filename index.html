@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html ng-app="storeApp">
 <head>
     <!-- Standard Meta -->
     <meta charset="utf-8" />
@@ -16,7 +16,7 @@
 
 
 </head>
-<body>
+<body ng-controller="storeControllert">
 
     <div class="ui main text container">
         <h1 class="ui header">Cloudstack Programming</h1>
@@ -54,7 +54,10 @@
             <div class="ui divider"></div>
             <h2>Catalogo de Productos</h2>
             <!-- Aqui va el Catalogo de Productos usando angular y leyendo de Firebase -->
+
+                <span id="products"></span>
             <!-- Aqui termina el espacio del catalogo de productos -->
+            
             </div>
 
             <div class="ui inverted vertical footer segment">
@@ -109,6 +112,8 @@
             <script src="js/firebase.js"></script>
             <!-- Firebase Retrieving -->
             <script src="js/firebaseRetreiving.js"></script>
+
+            <script src="js/appAngular.js"></script>
         </body>
 
         </html>

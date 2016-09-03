@@ -1,1 +1,1 @@
-function writeNewProduct(e,r,t){var a={nombre:e,precio:r,descripcion:t},c=firebase.database().ref().child("products").push().key,d={};return d["/products/"+c]=a,firebase.database().ref().update(d)}writeNewProduct("khkjhk","kjhkjh","kjkjhk");
+function writeNewProduct(e,r,a,i){var t={nombre:e,precio:r,descripcion:a,imageUrl:i},c=firebase.database().ref().child("products").push().key,d={};return d["/products/"+c]=t,firebase.database().ref().update(d)}

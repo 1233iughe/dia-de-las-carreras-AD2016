@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html ng-app="storeApp">
 <head>
     <!-- Standard Meta -->
     <meta charset="utf-8" />
@@ -16,7 +16,7 @@
 
 
 </head>
-<body>
+<body ng-controller="adminController">
 
     <div class="ui main text container">
         <h1 class="ui header">Cloudstack Programming</h1>
@@ -40,20 +40,25 @@
         <h2 class="ui header">Sección de Administrador</h2>
         <p>A continuación la forma para poder agregar nuevos articulos a nuestra tienda en linea.</p>
 
-        <form class="ui form">
+        <form class="ui form" ng-submit="saveProduct()">
             <div class="field">
                 <label>Nombre</label>
-                <input type="text" name="name" placeholder="Nombre del Articulo">
+                <input type="text" name="name" placeholder="Nombre del Articulo" ng-model="name">
             </div>
             <div class="field">
                 <label>Precio</label>
-                <input type="number" min="1" step="any" name="precio" placeholder="0.00">
+                <input type="number" min="1" step="any" name="precio" placeholder="0.00" ng-model="price">
             </div>
             <div class="field">
                 <label>Descripcion</label>
-                <textarea name="description" placeholder="Lorem ipsum…"></textarea>
+                <textarea name="description" placeholder="Lorem ipsum…" ng-model="description"></textarea>
             </div>
-
+            <!-- upload Care -->
+            <div class="field">
+                <input type="hidden" role="uploadcare-uploader"
+       data-crop="disabled"
+       data-images-only="true" />
+            </div>
             <button class="ui basic button teal" type="submit">Guardar</button>
         </form>
 
@@ -106,11 +111,16 @@
     <script src="//cdn.jsdelivr.net/semantic-ui/2.2.3/semantic.min.js"></script>
     <script src="js/template.js"></script>
 
+    <!-- Upload care -->
+    <script charset="utf-8" src="//ucarecdn.com/widget/2.10.0/uploadcare/uploadcare.full.min.js"></script>
+    <script src="js/uploadCare.js"></script>
     <!-- Firebase Confg -->
     <script src="//www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
     <script src="js/firebase.js"></script>
     <!-- Firebase Saving -->
     <script src="js/firebaseSaving.js"></script>
+
+    <script src="js/appAngular.js"></script>
 </body>
 
 </html>
