@@ -8,6 +8,11 @@ Este repo esta enfocado a dar a conocer lo que se puede lograr hacer con tecnolo
 
 ## Metas
 
-Al final del curso el alumno debera haber utilizado las siguientes tecnologias: [Stripe](https://stripe.com/), Upload Care, Netlify, Firebase, entre otras. Esto con el objetivo de entender las tecnologias web de mayor impacto permitiendo entender lo que se puede crear con unas cuentas lineas de codigo y bastante imaginación.
+Al final del curso el alumno debera haber utilizado las siguientes tecnologias: [Stripe](https://stripe.com/), [Upload Care](https://uploadcare.com/), [Netlify](https://www.netlify.com/), [Firebase](https://firebase.google.com/), entre otras. Esto con el objetivo de entender las tecnologias web de mayor impacto permitiendo entender lo que se puede crear con unas cuentas lineas de codigo y bastante imaginación.
 
 Programar no es dificil, crear y solucionar problemas requiere de pasión y son aptitudes que en ISC formamos.
+
+
+- - -
+
+![isc logo](https://isc-itesm-gda.github.io/dia-de-las-carreras-AD2016/img/logo-isc-original.png)
