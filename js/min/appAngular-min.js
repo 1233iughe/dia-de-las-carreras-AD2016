@@ -1,0 +1,1 @@
+angular.module("storeApp",[]).controller("storeControllert",function(o,n){o.products=null}).controller("adminController",function(o){o.saveProduct=function(){writeNewProduct(o.name,o.price,o.description)&&(o.name="",o.description="",o.price=""),uploadcare.openDialog(null,{crop:"disabled",imagesOnly:!0}).done(function(o){o.promise().done(function(o){console.log(o.cdnUrl)})})}});

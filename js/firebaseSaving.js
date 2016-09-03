@@ -1,10 +1,10 @@
-function writeNewProduct(name, price, description) {
+function writeNewProduct(name, price, description, photo = 'http://lorempixel.com/400/200') {
   // A post entry.
   var productData = {
     nombre: name,
     precio: price,
     descripcion: description,
-    //imageUrl: photo,
+    imageUrl: photo,
   };
 
   // Get a key for a new Product.
@@ -17,6 +17,3 @@ function writeNewProduct(name, price, description) {
 
   return firebase.database().ref().update(updates);
 }
-
-
-writeNewProduct('khkjhk', 'kjhkjh', 'kjkjhk');
