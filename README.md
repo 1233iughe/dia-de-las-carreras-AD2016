@@ -15,6 +15,6 @@ Programar no es dificil, crear y solucionar problemas requiere de pasión y son 
 
 - - -
 
-![isc-logo](https://isc-itesm-gda.github.io/dia-de-las-carreras-AD2016/img/logo-isc-original.png  | height = 100px )
+![isc-logo](https://isc-itesm-gda.github.io/dia-de-las-carreras-AD2016/img/logo-isc-original.png)
 
 ![itesm-logo](http://www.itesm.mx/wps/wcm/connect/7bcac8804510f9c4b5effda191aa833f/2/Logo.jpg?MOD=AJPERES&CACHEID=7bcac8804510f9c4b5effda191aa833f/2)
