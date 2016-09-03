@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".main.menu").visibility({type:"fixed"}),$(".overlay").visibility({type:"fixed",offset:80}),$(".image").visibility({type:"image",transition:"vertical flip in",duration:500}),$(".main.menu  .ui.dropdown").dropdown({on:"hover"})});

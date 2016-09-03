@@ -1,0 +1,1 @@
+function writeNewProduct(e,r,t){var a={nombre:e,precio:r,descripcion:t},c=firebase.database().ref().child("products").push().key,d={};return d["/products/"+c]=a,firebase.database().ref().update(d)}writeNewProduct("khkjhk","kjhkjh","kjkjhk");
